@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kayomochka</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+    <div class="site_overwrapper">
+        <div class="site_wrapper">
+            <header>
+                <nav class="tabs-menu">
+                    <button class="tab-btn active" data-tab="home">Home</button>
+                    <button class="tab-btn" data-tab="gallery">Gallery</button>
+                    <button class="tab-btn" data-tab="pricelist">Pricelist</button>
+                </nav>
+            </header>
+            <main>
+                <div class="tab-content-wrapper">
+                    <section id="home" class="tab-content active">
+                        <div>
+                            <img src="icons/logo.png" alt="logo" id="logo_main">
+                            <p class="home_text_block">
+                                Kayomochka | he/him | 18 <br>
+                                January 7
+
+                            </p>
+                        </div>
+                        <div>
+                            <h2 class="tab_menu_title">About me</h2>
+                            <div class="home_text_block">
+                                <p>
+                                    I am a young self‑taught artist, Kayomochka. I have many years of experience in both
+                                    traditional and digital formats.</p>
+                                <p>I create original characters and also work on their backstory. I derive great
+                                    pleasure
+                                    from developing my characters,
+                                    putting my soul into them.</p>
+                                <p>I’ll take on your character with even greater enthusiasm if you approached its
+                                    creation
+                                    with the same care, because I’m
+                                    just as captivated by the inner workings as I am by the outward appearance.</p>
+
+                            </div>
+                        </div>
+                    </section>
+                    <section id="gallery" class="tab-content">
+                        <div class="image-grid" id="imageGrid">
+                            <img src="img/fandom_1.png" class="grid-img" data-tags="fandoms" alt="Фандом 1">
+                            <img src="img/fandom_2.jpg" class="grid-img" data-tags="fandoms" alt="Фандом 2">
+                            <img src="img/fandom_scetch_1.jpg" class="grid-img" data-tags="fandoms,traditional"
+                                alt="Скетч 1">
+                            <img src="img/order_1.jpg" class="grid-img" data-tags="previous" alt="Заказ 1">
+                            <img src="img/order_2.jpg" class="grid-img" data-tags="previous" alt="Заказ 2">
+                            <img src="img/origin_1.png" class="grid-img" data-tags="original" alt="Original_1">
+                            <img src="img/origin_2.jpg" class="grid-img" data-tags="original" alt="Original_2">
+                            <img src="img/origin_3.png" class="grid-img" data-tags="original" alt="Original_3">
+                        </div>
+
+                        <!-- 2. МОДАЛЬНОЕ ОКНО: теперь оно изначально скрыто в CSS -->
+                        <div id="carousel-modal" class="modal">
+                            <button class="close-btn">&times;</button>
+                            <div class="carousel-wrapper">
+                                <button class="carousel-btn prev-btn">‹</button>
+
+                                <div class="carousel-container">
+                                    <div class="carousel-track" id="carouselTrack">
+                                        <img src="img/fandom_1.png" class="carousel-img" data-tags="fandoms"
+                                            alt="Фандом 1">
+                                        <img src="img/fandom_2.jpg" class="carousel-img" data-tags="fandoms"
+                                            alt="Фандом 2">
+                                        <img src="img/fandom_scetch_1.jpg" class="carousel-img"
+                                            data-tags="fandoms,traditional" alt="Скетч 1">
+                                        <img src="img/order_1.jpg" class="carousel-img" data-tags="previous"
+                                            alt="Заказ 1">
+                                        <img src="img/order_2.jpg" class="carousel-img" data-tags="previous"
+                                            alt="Заказ 2">
+                                        <img src="img/origin_1.png" class="carousel-img" data-tags="original"
+                                            alt="Original_1">
+                                        <img src="img/origin_2.jpg" class="carousel-img" data-tags="original"
+                                            alt="Original_2">
+                                        <img src="img/origin_3.png" class="carousel-img" data-tags="original"
+                                            alt="Original_3">
+                                    </div>
+                                </div>
+
+                                <button class="carousel-btn next-btn">›</button>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="pricelist" class="tab-content">
+                        <img src="img/pricelist.png" alt="pricelist">
+                    </section>
+                </div>
+            </main>
+        </div>
+        <div class="social-icons">
+            <a href="https://t.me/kaibaska" target="_blank" class="social-link">
+                <img src="icons/telegram.png" alt="hui" class="social_icon" id="telegram_icon">
+            </a>
+            <a href="https://www.tiktok.com/@kayoyomka?_r=1&_t=ZT-99QyVsZ6Uhh" target="_blank" class="social-link">
+                <img src="icons/tiktok.svg" alt="TikTok" class="social_icon">
+            </a>
+            <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=kaisato382@gmail.com" target="_blank"
+                class="social-link">
+                <img src="icons/mail.svg" alt="Email" class="social_icon  ">
+            </a>
+        </div>
+    </div>
+    <script type="module" src="/js/main.js"></script>
+</body>
+
+</html>

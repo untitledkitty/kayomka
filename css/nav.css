@@ -1,0 +1,30 @@
+.tabs-menu {
+    background-color: #111A24;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    align-items: flex-end;
+}
+
+.tab-btn {
+    border: none;
+    color: #19232F;
+    background-color: #283A4C;
+    border-bottom: none;
+    border-radius: 12px 12px 0 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    bottom: -1px;
+    z-index: 1;
+    font-family: 'ArchitectsDaughter';
+}
+
+.tab-btn:hover {
+    background-color: #364F66;
+}
