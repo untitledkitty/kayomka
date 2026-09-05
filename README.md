@@ -20,7 +20,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/untitledkitty/govno.git
+   git clone https://github.com/untitledkitty/painter-s-site.git
    ```
 2. Перейдите в папку с проектом:
    ```bash
