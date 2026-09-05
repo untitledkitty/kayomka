@@ -20,7 +20,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/untitledkitty/govno.git
    ```
 2. Перейдите в папку с проектом:
    ```bash
